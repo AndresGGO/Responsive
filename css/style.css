@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	background-image: url('../images/headb.png');
+		height: 90px;
+		font-family: calibri;
+
+}
+
+h1{
+	font-size: 40px;
+	text-align: left;
+	padding: 40px;
+	color: #fff;
+}
+
+section{
+	flex-wrap: wrap;
+	width: 80%;
+	float: right;
+	display: inline-block;
+}
+
+.ces {
+	width:23%;
+	align-content: center;
+	height: 84px;
+	display: inline-block;
+	border: solid 2px;
+	margin: 10px;
+
+}
+
+.cest{
+	background-color: #f73361;
+	}		
+.cest2{
+	background-color: #32e3f7;
+	}	
+.cest3{
+	background-color: #7bc427;
+	}	
+.cest4{
+	background-color: #fca85f;
+	}	
+
+
+.bott{
+	width: 98%;
+	height: 60px;
+	margin: 4px;
+	border: solid 2px;
+	background-color: #FFF;
+}	
+
+.ci{
+	background-color: #fce7d1;
+}
+.graphics{
+	width: 96%;
+	margin: 14px;
+	height: 428px;
+	border: solid 4px;
+	display: inline-block;
+}
+aside{
+	width: 20%;
+	height:800px;
+	float: left;
+	display: inline-block;
+
+}
+h2{
+	text-align: justify;
+	font-size: 40px;
+	font-family: initial:;
+
+}
+.user{
+	height: 200px;
+	background-color: #5ff4fc;
+	padding: 10px;
+	border: solid 2px;
+	margin: 4px;
+}
+
+.foot{
+	height: 295px;
+	width: 29%;
+	display: inline-block;
+	margin:10px;
+	border: solid 4px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 600px){
+	section {width: 50%;
+			display: inline-block;}
+.graphics{
+	width: 40%;
+	margin: 14px;
+	height: 428px;
+	border: solid 4px;
+	}
+	aside {
+		display: block;
+		width: 50%;
+		margin-bottom: 50px;
+	}
+	.ces {
+		display: inline-block;
+		width: 42%;
+	}
+	.graphics{
+		display: block;
+		width: 95%;
+	}
+	.foot{
+		width: 96%;
+		display: block;}
+
+
+}
+
+
+@media screen and (max-width: 599px){
+
+	section {
+		display: block;
+		width: 100%;
+	}
+	aside {
+		display: block;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.graphics{
+		display: block;
+		width: 100%;
+	}
+	.ces {
+		display: block;
+		width: 96%;
+	}
+	.graphics{
+		width: 96%;
+		display: block;
+	}
+	.foot{
+		width: 96%;
+		display: block;
+	}
+}
+
+
+
+
